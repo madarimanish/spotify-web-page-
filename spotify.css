@@ -1,0 +1,291 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUITitle,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva, sans-serif;
+}
+nav{
+    /* border: 2px solid; */
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#nav1{
+    /* border: 2px solid red; */
+    width: 38%;
+}
+#nav1 svg{
+  height: 35px;
+  fill: white;
+}
+#nav2{
+    /* border: 2px solid green; */
+    width: 38%;
+}
+#nav2>ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+}
+main{
+    height: 525px;
+    background: url('./assets/desktop-hero.jpeg') center 40%/ 100%;
+    background-repeat: no-repeat;
+}
+main>h1{
+    /* border: 2px solid; */
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    letter-spacing: -2px;
+}
+main>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+#sec1{
+    /* border: 2px solid red; */
+    height: 580px;
+}
+#sec1 h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+#sec1 aside{
+    /* border: 2px solid green; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#sec1 aside div{
+    /* border: 2px solid green; */
+    height: 400px;
+    width: 250px;
+    text-align: center;
+}
+#sec1 p{
+    line-height: 25px;
+}
+#div1{
+    /* border: 2px solid green; */
+    height: 450px;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgb(30, 215, 90);
+    background-image: url('./assets/mobile_benefit.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+#h1{
+    text-align: center;
+    /* font-weight: 600; */
+    /* font-size: 30px; */
+    letter-spacing: -2px;
+}
+#sec3{
+    /* border: 2px solid; */
+    height: 580;
+}
+#sec3 h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+#sec3 div{
+    /* border: 2px solid green; */
+    width: 80%;
+}
+#sec3 aside{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sec3 aside summary{
+    list-style: none;
+    /* border: 2px solid orange; */
+    height: 70px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid aliceblue;
+    padding-right: 660px;
+}
+#sec3 summary span{
+   padding-left: 200%;
+}
+#sec3 summary:hover{
+    background-color: aliceblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#s1{
+    color: green;
+}
+#sec3 p{
+    /* border: 2px solid green; */
+    margin-left: 2%;
+}
+#s2{
+    color: green;
+}
+#s3{
+    color: green;
+}
+#s4{
+    color: green;
+}
+#s5{
+    color: green;
+}
+#s6{
+    color: green;
+}
+#div4 h1{
+    color: white;
+   font-size: 55px;
+}
+#div4 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+#sec4{
+    /* border: 2px solid ; */
+    height: 450px;
+    background: url('./assets/desktop-closing.jpeg');
+    background-position: 20% 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#sec4 h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+#sec4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#sec4 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+ 
+footer{
+    /* border: 2px solid; */
+    height: 560px;
+    background-color: black;
+    color: white;
+}
+footer svg{
+    fill: white;
+}
+footer aside{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    height: 300px;
+}
+footer aside div{
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 140px;
+}
+#list{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+footer aside ol{
+    list-style: none;
+    line-height: 40px;
+}
+footer aside section{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgb(38, 35, 35);
+    color: white;
+}
+#icons1{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+footer aside ol li:hover{
+    color: green;
+    cursor: pointer;
+}
+.l1{
+    color: rgb(190, 177, 177);
+}
+/* #o1{
+    border: 2px solid;
+    height: 60px;
+} */
+#l2{
+   display: flex;
+   list-style: none;
+   gap: 28px;
+   align-items: center;
+   justify-content: center;
+   color: rgb(190, 177, 177);
+}
+ #o1 ol li:hover{
+    cursor: pointer;
+   color: green;
+}
+#o1 button svg{
+    border: 2px solid;
+    height: 15px;
+    padding: 0px;
+}
+#lg1{
+    align-items: end;
+    justify-content: end;
+    font-size: 12px;
+    color: rgb(190, 177, 177);
+}
+#lg1 a svg  span{
+    /* margin-left: 83%; */
+    align-content: end;
+}
